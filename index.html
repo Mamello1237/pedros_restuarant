@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pedro's Restaurant</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+
+    <!-- Navigation -->
+     <header class="navbar">
+         <div class="image"><img src="images/Pedros-Chicken-Logo.png" alt=""></div>
+         <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+         <nav class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="About us.html">About Us</a>
+            <a href="Services.html">Services</a>
+            <a href="Contact.html">Contact</a>
+            </nav>
+     </nav>
+ </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Olá! Welcome to <span>Pedros</span></h1>
+            <p>Flame Grilled Chicken - The fastest-growing chicken franchise in South Africa!</p>
+            <a href="#" class="btn order-btn">Order Now</a>
+        </div>
+    </section>
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+    
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    <script src="script.js"></script>    
+
+</body>
+</html>
+<!-- Menu Section -->
+<section class="menu">
+    <p>Explore our delicious offerings!</p>
+    <div class="menu-categories">
+        <button class="category-btn">All Meals</button>
+        <button class="category-btn">Favourites</button>
+        <button class="category-btn">Chicken Only</button>
+        <button class="category-btn">Family Meals</button>
+        <button class="category-btn">Platters</button>
+        <button class="category-btn">Burger Meals</button>
+        <button class="category-btn">Wraps</button>
+        <button class="category-btn">Sides</button>
+        <button class="category-btn">Snacks</button>
+    </div>
+    <div class="menu-items">
+        <div class="menu-item">
+            <img src="images/IMG-20250508-WA0017.jpg" alt="Viva Meal">
+            <h3>Viva Meal</h3>
+            <p>R82.90</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/IMG-20250508-WA0021.jpg" alt="Chicken Platters">
+            <h3>Chicken Platters</h3>
+            <p>R59.90</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/IMG-20250508-WA0018.jpg" alt="Double Up">
+            <h3>Double Up</h3>
+            <p>R65.99</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/paella.jpg" alt="Full Chicken Paella">
+            <h3>Full Chicken Paella</h3>
+            <p>R146.99</p>
+        </div>
+    </div>
+</section>
+</footer>
+<!-- Footer Section -->
+<!-- Footer Section -->
+<footer class="footer">
+        <p>169 troye, Pretoria, SA, 0001</p>
+        <p>Email:
+        <a href="mailto:
+        contact@pedrosrestaurant.com</a></p>
+        <p>Email:
+        <p>Follow us here:</p>
+        <a href="mailto:contact@pedrosrestaurant.com">contact@pedrosrestaurant.com</a></p>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a> 
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+    
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
